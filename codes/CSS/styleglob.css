@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../../Images/Img/Background/Background\ home.png);
+    background-size: cover;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1440px;
+}
+
+
+#golira {
+    width: 118px;
+    height: 161px;
+}
+
+.ancoras {
+    height: 100px;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#marcarHoraBtn {
+    height: 30px;
+}
+#sobreNosBtn {
+    height: 30px;
+}
+#TatuadoresBtn {
+    height: 30px;
+}
+
+
+    #marcarHoraBtn:hover::after{
+    
+        content: '';
+        margin: 0px auto;
+        width:113px ;
+        height:4px;
+        border-radius: 3px;
+        background: #ef5dae;
+        display: block;
+}
+
+#sobreNosBtn:hover::after{
+    
+    content: '';
+    margin: 0px auto;
+    width:86px ;
+    height:4px;
+    border-radius: 3px;
+    background: #D3F211;
+    display: block;
+}
+
+#TatuadoresBtn:hover::after{
+    
+    content: '';
+    margin: 0px auto;
+    width:91px ;
+    height:4px;
+    border-radius: 3px;
+    background: #07D3E0;
+    display: block;
+}
+
+.logo>h1 {
+    margin: 0px 35px;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+ .linha{
+     border-color: #000;
+    
+} 
+
+.logo{
+    justify-content: center;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 72px;
+}
+
+/* FIM DO HEADER!!!!!!! */
+
+/* INICIO DA SESSÃO TATUADORES */
+
+#TatuadoresFT {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+#sectatuadores>h2 {
+    padding: 50px;
+    margin-bottom: 30px ;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Trispace', sans-serif;
+    font-size: 45px;
+}
+
+/* FIM DA SEÇÃO TATUADORES */
+/* Inicio da seção Sobre nós */
+
+#secsobrenos {
+    display: flex;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Sobre_nos {
+    margin-top: 35px;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+}
+#Sobre_nos>h2 {
+    text-align: center;
+    font-size: 45;
+}
+
+#Sobre_nos>p {
+    margin-top: 15px;
+    width: 500px;
+    font-size: 20;
+    text-align: center;
+}
+
+#Sobre_nos>img{
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+#Redes_sociais {
+    margin-left: 160px;
+    font-size: 40px;
+}
+
+/* Agendar Horario */
+
+#Agendar_Horario {
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 27px;
+    font-family: 'Trispace', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Agendar_Horario>#zap {
+    margin-left: 20px;
+}
+
+#sec-agendar {
+    padding: 80px 0 50px 0;
+}
+/* FAZER SOMBRA AGORA */
+
+ #sombra1 {
+     height: 30vh;
+     width: 100vw;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.54) 35.13%, rgba(0, 0, 0, 0) 83.83%);
+} 
+
+#sombra2 {
+    height:10%;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 97.92%);
+ 
+}
+
+
+/* Fim sombra */

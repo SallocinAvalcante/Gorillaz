@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-image: url(../../Images/Img/Background/Background\ tatuadores.jpg);
+    background-size: cover;
+} */
+
+#pback1 {
+    background-image:linear-gradient(180deg, rgba(196, 196, 196, 0) 61.46%, #000000 100%), url(../../Images/Img/Background/Background\ tatuadores.jpg);
+    background-size: cover;
+}
+
+#pback2 {
+    padding: 20px 0px;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(196, 196, 196, 0) 50.52%),url(../../Images/Img/Background/Background\ Tatuadores2.png);
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1440px;
+}
+
+
+#golira {
+    width: 67px;
+    height: 87.77px;
+}
+
+.ancoras {
+    height: 100px;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#marcarHoraBtn {
+    height: 30px;
+}
+
+#VoltarBtn {
+    height: 30px;
+}
+
+#TatuagemBtn {
+    height: 30px;
+}
+
+
+#marcarHoraBtn:hover::after {
+
+    content: '';
+    margin: 0px auto;
+    width: 113px;
+    height: 4px;
+    border-radius: 3px;
+    background: #ef5dae;
+    display: block;
+}
+
+#VoltarBtn:hover::after {
+
+    content: '';
+    margin: 0px auto;
+    width: 45px;
+    height: 4px;
+    border-radius: 3px;
+    background: #D3F211;
+    display: block;
+}
+
+#TatuagemBtn:hover::after {
+
+    content: '';
+    margin: 0px auto;
+    width: 91px;
+    height: 4px;
+    border-radius: 3px;
+    background: #07D3E0;
+    display: block;
+}
+
+#golira {
+    width: 64px;
+    height: 87.77px;
+}
+
+/* Seção Flavia */
+
+#SecaoFlavia {
+    padding: 50px 0px;
+}
+
+#paidasputa {
+    padding: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#SecaoFlavia>h1 {
+    padding: 30px;
+    font-size: 48px;
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    display: flex;
+    justify-content: center;
+}
+
+/* Parte da flavia e perfil */
+#Perfil {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;
+}
+
+#imgflav {
+    width: 346px;
+    height: 388px;
+    margin-left: 180px;
+    border-color: white;
+}
+
+#Perfil>div>p {
+    margin-left: 180px;
+    margin-top: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#Perfil>h3 {
+    font-weight: 500;
+    margin-left: 120px;
+    width: 300px;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Trispace', sans-serif;
+    font-size: 26px;
+}
+
+#htflav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 347px
+}
+
+/* Perfil */
+/* Começando Elogios */
+
+#Elogios {
+    align-items: center;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+    font-size: 26px;
+}
+
+#com1 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#com2 {
+    margin-top: 150px;
+    margin-left: 240px;
+}
+
+#com3 {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+/* Final 1sec */
+/* Degrade */
+
+#Big_degrade {
+    height: 368px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 17.72%, rgba(0, 0, 0, 0.970312) 59.29%, rgba(0, 0, 0, 0.08) 100%);
+}
+
+/* Fim degrade */
+
+/* Secao 2 */
+
+
+#imagens {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+
+}
+
+#imagens>Div>img {
+    margin-top: 160px;
+    border-radius: 10px;
+}
+
+#imagens
+
+#sechorario {
+    padding: 200px 0px 60px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #sechorario>div>a {
+    width: 90px;
+    height: 90px;
+} */
+
+#Agendar_Horario {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 27px;
+    font-family: 'Trispace', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Agendar_Horario>#zap {
+    margin-left: 20px;
+}
+
+#Sobre_nos>img {
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 65px;
+}
+
+#Redes_sociais {
+    margin-top: 120px;
+    margin-left: 180px;
+    font-size: 120px;
+}
+
+
+/* RESPONSIVIDADE  */
+/* infelizmente */
+
+
+/* 1372 até o max */
+@media screen and (max-width:1372px) {
+
+    #imagens>Div>img {
+        width: 226px;
+        height: 258px;
+        margin-top: 180px;
+        border-radius: 10px;
+    }
+
+    #Redes_sociais {
+        margin-left: 0px;
+        font-size: 75px;
+    }
+
+    #sechorario {
+        padding: 50px 0px 60px 0px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+}
+
+/* 1235 - 1372 */
+
+@media screen and (max-width:1235px) {
+    #imagens>Div>img {
+        width: 206px;
+        height: 228px;
+        margin-top: 180px;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width:1113px) {
+    #imagens>Div>img {
+        width: 186px;
+        height: 208px;
+        margin-top: 180px;
+        border-radius: 10px;
+    }
+
+    #imgflav {
+        width: 246px;
+        height: 288px;
+        margin-left: 180px;
+        border-color: white;
+    }
+     
+    #Perfil>div>p {
+        margin-left: 180px;
+        margin-top: 15px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Perfil>h3 {
+        font-weight: 500;
+        margin-left: 120px;
+        width: 300px;
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+        font-family: 'Trispace', sans-serif;
+        font-size: 20px;
+    }
+
+    #Elogios {
+        align-items: center;
+        color: white;
+        font-family: 'Trispace', sans-serif;
+        font-size: 20px;
+    }
+
+    #Agendar_Horario {
+        margin-top: 80px;
+        margin-left: 20px;
+        font-size: 21px;
+        font-family: 'Trispace', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* 1000 - 1100 */
+
+@media screen and (max-width:1043px) {
+    #imagens>Div>img {
+        width: 146px;
+        height: 188px;
+        margin-top: 180px;
+        border-radius: 10px;
+    }
+    #imgflav {
+        width: 146px;
+        height: 188px;
+        margin-left: 180px;
+        border-color: white;
+    }
+     
+    #Perfil>div>p {
+        margin-left: 180px;
+        margin-top: 15px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Perfil>h3 {
+        font-weight: 500;
+        margin-left: 120px;
+        width: 300px;
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+        font-family: 'Trispace', sans-serif;
+        font-size: 17px;
+    }
+
+    #Elogios {
+        align-items: center;
+        color: white;
+        font-family: 'Trispace', sans-serif;
+        font-size: 17px;
+    }
+
+    #Agendar_Horario {
+        margin-top: 80px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-family: 'Trispace', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:979px) {
+
+    #Perfil {
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    #imagens>Div>img {
+        width: 126px;
+        height: 148px;
+        margin-top: 180px;
+        border-radius: 10px;
+    }
+
+    #htflav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    }
+
+    #Perfil>h3 {
+        font-weight: 500;
+        margin-left: 90px;
+        width: 200px;
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+        font-family: 'Trispace', sans-serif;
+        font-size: 17px;
+    }
+
+    #com1 {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    #com2 {
+        margin-top: 150px;
+        margin-left: 120px;
+    }
+
+    #com3 {
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:759px) {
+
+
+    .ancoras {
+        font-size: 19px;
+    }
+
+    #golira {
+        width: 32px;
+        height: 43.5px;}
+
+        #imgflav {
+            width: 115px;
+            height: 144px;
+            margin-left: 145px;
+            border-color: white;
+        }
+
+        #Perfil>div>p {
+            margin-left: 145px;
+            margin-top: 15px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #Perfil>h3 {
+            font-weight: 500;
+            margin-left: 100px;
+            width: 150px;
+            margin-top: 15px;
+            color: white;
+            text-align: center;
+            font-family: 'Trispace', sans-serif;
+            font-size: 16px;
+        }
+
+        #SecaoFlavia {
+            padding: 30px 0px;
+        }
+
+        #SecaoFlavia>h1 {
+        font-size: 38px;}
+
+        #paidasputa {
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #imagens>Div>img {
+    width: 126px;
+    height: 148px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+}
